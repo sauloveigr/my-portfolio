@@ -41,7 +41,7 @@ export function Button({
       {...otherProps}
     >
       <div
-        className="absolute inset-0 rounde-[1.75rem]"
+        className="absolute inset-0"
         style={{ borderRadius: `calc(${borderRadius} * 0.96)` }}
       >
         <MovingBorder duration={duration} rx="30%" ry="30%">
@@ -124,11 +124,8 @@ export const MovingBorder = ({
         />
       </svg>
       <motion.div
+        className="absolute top-0 left-0 inline-block"
         style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          display: "inline-block",
           transform,
         }}
       >

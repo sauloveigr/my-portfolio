@@ -77,14 +77,8 @@ export function HoverBorderGradient({
       </div>
       <motion.div
         className={cn(
-          "flex-none inset-0 overflow-hidden absolute z-0 rounded-[inherit]"
+          "flex-none inset-0 overflow-hidden absolute z-0 rounded-[inherit] blur-[2px] w-full h-full"
         )}
-        style={{
-          filter: "blur(2px)",
-          position: "absolute",
-          width: "100%",
-          height: "100%",
-        }}
         initial={{ background: movingMap[direction] }}
         animate={{
           background: hovered

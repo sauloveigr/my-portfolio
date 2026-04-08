@@ -23,8 +23,7 @@ const RecentProjects = () => {
                         <PinContainer title={item.title}>
                             <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[30vh] mb-10">
                                 <div
-                                    className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                                    style={{backgroundColor: '#13162D'}}
+                                    className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-dark-blue"
                                 >
                                     <img
                                         src="/bg.png"
@@ -44,11 +43,7 @@ const RecentProjects = () => {
                             </h1>
 
                             <p
-                                className="lg:text-lg lg:font-normal font-light text-sm line-clamp-2"
-                                style={{
-                                    color: '#BEC1DD',
-                                    margin: '1vh 0',
-                                }}
+                                className="lg:text-md lg:font-normal font-light text-sm line-clamp-2 text-white-100 my-[1vh]"
                             >
                                 {item.description}
                             </p>
@@ -59,8 +54,7 @@ const RecentProjects = () => {
                                         Check Live Site
                                     </p>
                                     <FaLocationArrow
-                                        className="ms-3"
-                                        color="#CBACF9"
+                                        className="ms-3 text-purple"
                                     />
                                 </div>
                             </div>

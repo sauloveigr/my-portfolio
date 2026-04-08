@@ -71,6 +71,13 @@ export const gridItems = [
 
 export const projects = [
     {
+        title: 'Crypto Dashboard',
+        description:
+            'A responsive Crypto Dashboard built with Next.js, Typescript, Tailwind CSS, TanStack Query, Zustand, etc.',
+        img: '/project-2.png',
+        link: 'https://dashcrypto.vercel.app/',
+    },
+    {
         title: 'Show Time',
         description:
             'A responsive show platform, built with React, TypeScript, Tailwind CSS, Supabase, etc.',
@@ -78,25 +85,11 @@ export const projects = [
         link: 'https://music-show-eight.vercel.app/',
     },
     {
-        title: 'Form',
+        title: 'Portfolio',
         description:
-            'A responsive form built with React, Formik, Styled Components and Material-UI.',
-        img: '/project-2.png',
-        link: 'https://sauloveigr.github.io/form/',
-    },
-    {
-        title: 'Spirited Away',
-        description:
-            'A responsive landing page built with React and Styled Components.',
+            'A responsive Portfolio built with Next.js, Tailwind CSS and Typescript',
         img: '/project-3.png',
-        link: 'https://sauloveigr.github.io/studio-ghibli-react/',
-    },
-    {
-        title: 'Figma Land',
-        description:
-            'A landing page built with React, Styled Components and React Router DOM.',
-        img: '/project-4.png',
-        link: 'https://sauloveigr.github.io/landing-page-react/',
+        link: 'https://saulo-veiga.vercel.app/',
     },
 ];
 
