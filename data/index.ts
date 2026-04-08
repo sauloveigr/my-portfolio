@@ -123,7 +123,7 @@ export const testimonials = [
 export const workExperience = [
     {
         title: 'Software Engineer',
-        desc: 'Worked at a multinational company with international teams, developing solutions, enhancing the platform, and resolving bugs for large enterprise clients.',
+        desc: 'Worked at multinational companies with international teams, developing solutions, enhancing the platform, and resolving bugs for large enterprise clients.',
         className: 'md:col-span-2',
         thumbnail: '/exp1.svg',
     },
