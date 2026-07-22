@@ -15,7 +15,7 @@ const RecentProjects = () => {
             <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
                 {projects.map((item, index) => (
                     <a
-                        className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+                        className="lg:min-h-[38.5rem] h-[31rem] flex items-center justify-center sm:w-96 w-[80vw]"
                         key={index}
                         href={item.link}
                         target="_blank"
@@ -43,7 +43,7 @@ const RecentProjects = () => {
                             </h1>
 
                             <p
-                                className="lg:text-md lg:font-normal font-light text-sm line-clamp-2 text-white-100 my-[1vh]"
+                                className="lg:font-normal font-light text-sm leading-relaxed line-clamp-6 min-h-[7.125rem] text-white-100 my-[1vh]"
                             >
                                 {item.description}
                             </p>

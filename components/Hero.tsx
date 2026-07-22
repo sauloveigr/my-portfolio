@@ -1,8 +1,8 @@
-import { FaLocationArrow } from "react-icons/fa6";
+import {FaLocationArrow} from 'react-icons/fa6';
 
-import MagicButton from "./MagicButton";
-import { Spotlight } from "./ui/Spotlight";
-import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import MagicButton from './MagicButton';
+import {Spotlight} from './ui/Spotlight';
+import {TextGenerateEffect} from './ui/TextGenerateEffect';
 
 const Hero = () => {
   return (
@@ -41,7 +41,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Saulo, a Next.js Developer based in Brazil.
+            Hi! I&apos;m Saulo, a Software Engineer based in Brazil.
           </p>
 
           <a href="#about">
